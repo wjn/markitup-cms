@@ -2,53 +2,142 @@
 // markItUp!
 // By Jay Salvat - http://markitup.jaysalvat.com/
 // ------------------------------------------------------------------*/
-.markItUp .markItUpButton1 a {
-	background-image:url(images/h1.png); 
+
+.markItUp .markItUpHeader ul 
+{
+    margin:0 0 10px 0;
+    padding:0 0 0 0;
+    list-style:none;
+    z-index:40;
 }
-.markItUp .markItUpButton2 a {
-	background-image:url(images/h2.png); 
-}
-.markItUp .markItUpButton3 a {
-	background-image:url(images/h3.png); 
-}
-.markItUp .markItUpButton4 a {
-	background-image:url(images/h4.png); 
-}
-.markItUp .markItUpButton5 a {
-	background-image:url(images/h5.png); 
-}
-.markItUp .markItUpButton6 a {
-	background-image:url(images/h6.png); 
+.markItUp .markItUpHeader ul li.markItUpButton ul,
+div div .markItUpHeader ul ul
+{
+    border:none;
+    list-style:none;
+    padding:0 0 0 0;
 }
 
-.markItUp .markItUpButton7 a {
-	background-image:url(images/bold.png);
+.markItUp .markItUpHeader ul li.markItUpButton,
+.markItUp .markItUpHeader ul li.markItUpButton a
+{
+    height : 40px;
+    line-height : 40px;
+    vertical-align:middle;
+    width : 40px;
+    margin:0 0 0 0;
+    padding:0 0 0 0;
+    background-position:center left;
+    list-style:none;
 }
-.markItUp .markItUpButton8 a {
-	background-image:url(images/italic.png);
-}
-
-.markItUp .markItUpButton9 a {
-	background-image:url(images/list-bullet.png);
-}
-.markItUp .markItUpButton10 a {
-	background-image:url(images/list-numeric.png);
-}
-
-.markItUp .markItUpButton11 a {
-	background-image:url(images/picture.png); 
-}
-.markItUp .markItUpButton12 a {
-	background-image:url(images/link.png);
-}
-
-.markItUp .markItUpButton13 a	{
-	background-image:url(images/quotes.png);
-}
-.markItUp .markItUpButton14 a	{
-	background-image:url(images/code.png);
+.markItUp .markItUpHeader ul li.markItUpButton ul li
+{
+    border-bottom:#666666 solid 1px;
+    width : 220px;
+    background : #efefef;
+    z-index:40;
+    margin:0 0 0 0;
+    padding:5px;
+    list-style:none;
 }
 
-.markItUp .preview a {
-	background-image:url(images/preview.png);
+.markItUp .markItUpHeader ul li.markItUpButton ul li a
+{
+    padding : 0 0 0 40px;
+    margin:0 0 0 0;
+    width:auto;
+
+}
+.markItUp .markItUpHeader ul li.markItUpDropMenu,
+.markItUp .markItUpHeader ul li.markItUpDropMenu a
+{
+    width:100px;
+    margin-right:10px;
+    padding-left:10px;
+}
+.markItUp .markItUpHeader ul li.markItUpDropMenu a
+{
+   display:block;
+   text-indent:0;
+   font-size:16px;
+}
+
+.markItUp .markItUpButton1-1 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/heading-1.png);
+}
+
+.markItUp .markItUpButton1-2 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/heading-2.png);
+}
+
+.markItUp .markItUpButton1-3 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/heading-3.png);
+}
+
+
+.markItUp .markItUpButton2 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/bold.png);
+}
+
+.markItUp .markItUpButton3 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/italics.png);
+}
+
+.markItUp .markItUpButton4 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/list-unordered.png);
+}
+.markItUp .markItUpHeader ul li.markItUpButton.markItUpButton5 {margin-right:90px;}
+.markItUp .markItUpButton5 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/list-ordered.png);
+}
+
+.markItUp .markItUpHeader ul li.markItUpButton.markItUpButton6 {margin-left:120px;}
+.markItUp .markItUpButton6 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/image.png);
+}
+
+.markItUp .markItUpButton7 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/link.png);
+}
+
+.markItUp .markItUpButton8 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/block-quote.png);
+}
+
+.markItUp .markItUpButton9 a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/block-code.png);
+}
+
+.markItUp .preview {display:none;}
+.markItUp .markItUpHeader ul li.markItUpButton.preview {margin-left:50px;}
+.markItUp .preview a
+{
+    background-image : url(/image/1/32/0/0/assets/images/icons/search.png);
+    background-position:right center;
+}
+
+.markItUp,
+.markItUp .markItUpContainer
+{
+    border : none;
+    background : none;
+    width : auto;
+}
+
+textarea.markItUpEditor
+{
+    background : none;
+    border : 1px solid #cccccc;
+    z-index:0;
 }
